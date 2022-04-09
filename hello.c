@@ -9,6 +9,6 @@ int puts(const char *str)
 
 void main(void)
 {
-	puts("Hello\n");
+	puts("Hello-2022\n");
 	while (1);
 }
