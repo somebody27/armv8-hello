@@ -1,5 +1,11 @@
 #include "reg.h"
 
+/*
+ * 
+ *input: note the const
+ *why: char *
+ *
+ */
 int puts(const char *str)
 {
 	while (*str)
@@ -9,6 +15,6 @@ int puts(const char *str)
 
 void main(void)
 {
-	puts("Hello-2022\n");
+	puts("Hello-2022-http-github-test\n");
 	while (1);
 }
